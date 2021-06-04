@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: devops-toolkit
-        image: vfarcic/devops-toolkit:latest
+        image: bygui86/devops-toolkit:latest
         ports:
         - containerPort: 80
         livenessProbe:
